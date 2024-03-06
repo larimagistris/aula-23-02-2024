@@ -5,61 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #corpo{
-            background-image: url(https://th.bing.com/th/id/R.155ec70748a4a60854d56c45fbe4bd5b?rik=pHzafxnJQW5gTg&pid=ImgRaw&r=0);
+
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Kode+Mono:wght@400..700&display=swap');
+
+        #corpo {
             background-size: cover;
+            background-image: url(https://st3.depositphotos.com/32273002/37115/i/450/depositphotos_371152428-stock-photo-cement-mortar-white-background-texture.jpg);
             width: 100%;
             height: 100%;
             padding: 0;
             margin: 0;
             border: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
         }
         
         #nome {
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-family: 'Dancing Script';
             text-align: center;
-            font-size: 42px;
-            color: rgb(4, 27, 4);
-            background-color: rgb(188, 215, 203);
+            font-size: 70px;
+            color: rgb(12, 133, 12);
+            height: 22px;
+            
         }
 
         #cidade {
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-family: 'Dancing Script';
+            font-size: 30px;
             text-align: center;
-            color: rgb(29, 29, 29);
-            background-color: rgb(188, 215, 203);
+            color: rgb(12, 133, 12);
         }
 
         #texto {
+            font-family: 'Indie Flower';
             font-size: 22px;
-            background-color: rgb(188, 215, 203);
+            text-align: center;
         }
 
-        #titulo {
-            font-size: 26px;
+        div {
+            text-align: center;
+            font-family: 'Kode Mono';
         }
+
+        div a {
+            color: rgb(49, 49, 49);
+            font-size: 20px;
+            margin: 10px;
+        }
+
+        img {
+            width: 1200px;
+        }
+
     </style>
 </head>
 <body id="corpo">
-    <h1 id="nome">POUSADA</h1>
+
+    <h1 id="nome">Pousada</h1>
     <h2 id="cidade">Leão da Montanha</h2>
 
-    <button>Home</button>
-    <button>Reservas</button>
-    <button>Acomodações</button>
-    <button>Localização</button>
-    <button>Tarifas</button>
-    <button>Contato</button>
+    <div>
+        <a href="./projeto.html">Início</a>
+        <a href="./reservas.html">Reservas</a>
+        <a href="#">Acomodações</a>
+        <a href="#">Localização</a>
+        <a href="#">Tarifa</a>
+        <a href="#">Contato</a>
+    </div>
+
 
     <p id="texto">Estamos localizados numa área de 1700mª a 5 minutos do Centro Comercial de Monte Verde. <br>
     Para quem procura uma boa noite de sono e durante o dia procura agito, aqui é o lugar ideal. <br>
     Nossos chalés tem todo o conforto que você predita e merece para uma estadia tranquila e inesquecivel. <br><br>
-    Esquece o stress da didade grande. destrute a Natureza em Monte Verdel </p>
+    Esquece o stress da didade grande! Destrute a Natureza em Monte Verde! </p>
 
     <img src="./hotel-pousada-do-forte.jpg" alt="">
 
-    <script>
-
-    </script>
 </body>
 </html>
