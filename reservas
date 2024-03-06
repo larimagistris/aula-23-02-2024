@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Reservas</h1>
+    <h2>Faça um pedido de reserva</h2>
+    <div>Preecha o formulário sem compromisso. Nós entraremos em contato.</div>
+
+    <form>
+        Nome: <input type="text">
+        Cidade: <input type="text">
+        Telefone: <input type="text">
+        E-mail: <input type="email" name="" id="">
+        Pessoas: <select name="" id="">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        Entrada: <input type="date" name="" id="">
+        Saída: <input type="date" name="" id="">
+        Apto: <input type="radio" name="" id="">Ap para 2 pessoas
+        <input type="radio">Ap para 3 pessoas
+        <input type="radio">Ap para 4 pessoas
+    </form>
+</body>
+
+</html>
